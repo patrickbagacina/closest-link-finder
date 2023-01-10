@@ -1,0 +1,23 @@
+{
+  "name": "closest-link-finder",
+  "version": "1.0.0",
+  "description": "A project that finds the closest link between two given nodes in a graph.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickbagacina/closest-link-finder.git"
+  },
+  "author": "Patrick Bagacina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickbagacina/closest-link-finder/issues"
+  },
+  "homepage": "https://github.com/patrickbagacina/closest-link-finder#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
