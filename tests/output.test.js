@@ -15,5 +15,18 @@ describe("Output", () => {
       // act / assert
       Output.log(processed);
     });
+
+    it("should be able to log the processed inputs with no short links without any errors", () => {
+      // arrange
+      const processed = [
+        {
+          from: 0,
+          to: 2,
+        },
+      ];
+
+      // act / assert
+      Output.log(processed);
+    });
   });
 });
