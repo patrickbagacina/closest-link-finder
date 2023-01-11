@@ -3,9 +3,9 @@ class Output {
     console.log("Scenario                   Shortest Link");
     processed.forEach((p) => {
       console.log(
-        `Case ${p.from} to ${p.to}                   ${p.shortestLink.join(
-          "->"
-        )}`
+        `Case ${p.from} to ${p.to}                   ${
+          p.shortestLink ? p.shortestLink.join("->") : "Link Not Found"
+        }`
       );
     });
   }
